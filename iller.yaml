@@ -1,0 +1,23 @@
+---
+doctype: dist
+
+header:
+  name: API-TurfGame
+
+prereqs:
+  runtime:
+    requires:
+      - perl: 5.014000
+
+plugins:
+  - +config: Author::CSSON
+
+---
+doctype: weaver
+
+plugins:
+  - +config: Author::CSSON
+
+  - +remove_plugin: Splint
+
+  - +remove_plugin: Badges
