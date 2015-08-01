@@ -8,6 +8,7 @@ prereqs:
   runtime:
     requires:
       - perl: 5.014000
+      - Time::Moment
 
 plugins:
   - +config: Author::CSSON

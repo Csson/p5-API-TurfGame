@@ -1,4 +1,25 @@
 Revision history for API-TurfGame
 
 {{$NEXT}}
-    - Initial release
+ [API Changes]
+
+ [Bug Fixes]
+
+ [Documentation]
+
+ [Enhancements]
+
+ [Meta]
+
+ [New Features]
+
+ [Requirements]
+ - Added missing prereq: Time::Moment
+
+ [Revision]
+
+ [Testing]
+
+0.0001 2015-08-01T22:34:07Z CEST
+ - Initial release
+

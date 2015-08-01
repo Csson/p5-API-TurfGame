@@ -80,6 +80,7 @@
             "Pod::Weaver::Section::Legal" : "0",
             "Pod::Weaver::Section::Name" : "0",
             "Pod::Weaver::Section::Region" : "0",
+            "Pod::Weaver::Section::Source::DefaultGitHub" : "0",
             "Pod::Weaver::Section::Version" : "0",
             "Test::Pod" : "1.41",
             "Test::Warnings" : "0"
@@ -87,6 +88,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Time::Moment" : "0",
             "perl" : "5.014000"
          }
       },
@@ -104,27 +106,37 @@
    "provides" : {
       "API::TurfGame" : {
          "file" : "lib/API/TurfGame.pm",
-         "version" : "0.0001"
+         "version" : "0.0002"
       },
       "API::TurfGame::Repose::Request" : {
          "file" : "lib/API/TurfGame/Repose/Request.pm",
-         "version" : "0.0001"
+         "version" : "0.0002"
       },
       "API::TurfGame::Repose::RequestResponseKeywords" : {
          "file" : "lib/API/TurfGame/Repose/RequestResponseKeywords.pm",
-         "version" : "0.0001"
+         "version" : "0.0002"
       },
       "API::TurfGame::Repose::Response" : {
          "file" : "lib/API/TurfGame/Repose/Response.pm",
-         "version" : "0.0001"
+         "version" : "0.0002"
       },
       "API::TurfGame::Rest" : {
          "file" : "lib/API/TurfGame/Rest/User.pm",
-         "version" : "0.0001"
+         "version" : "0.0002"
       }
    },
    "release_status" : "stable",
-   "resources" : {},
-   "version" : "0.0001"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-API-TurfGame/issues"
+      },
+      "homepage" : "https://metacpan.org/release/API-TurfGame",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-API-TurfGame.git",
+         "web" : "https://github.com/Csson/p5-API-TurfGame"
+      }
+   },
+   "version" : "0.0002"
 }
 

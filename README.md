@@ -4,7 +4,11 @@ API::TurfGame - ..
 
 # VERSION
 
-Version 0.0001, released 2015-08-01.
+Version 0.0002, released 2015-08-01.
+
+# SOURCE
+
+[https://github.com/Csson/p5-API-TurfGame](https://github.com/Csson/p5-API-TurfGame)
 
 # HOMEPAGE
 
