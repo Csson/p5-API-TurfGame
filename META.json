@@ -1,5 +1,5 @@
 {
-   "abstract" : "Short intro",
+   "abstract" : "..",
    "author" : [
       "Erik Carlsson <info@code301.com>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Mail-Mailgun",
+   "name" : "API-TurfGame",
    "no_index" : {
       "directory" : [
          "t",
@@ -55,6 +55,7 @@
             "Dist::Zilla::Plugin::NextVersion::Semantic" : "0",
             "Dist::Zilla::Plugin::OurPkgVersion" : "0",
             "Dist::Zilla::Plugin::PodSyntaxTests" : "0",
+            "Dist::Zilla::Plugin::PodWeaver" : "0",
             "Dist::Zilla::Plugin::PodnameFromClassname" : "0",
             "Dist::Zilla::Plugin::Prereqs" : "0",
             "Dist::Zilla::Plugin::Prereqs::Plugins" : "0",
@@ -64,10 +65,9 @@
             "Dist::Zilla::Plugin::ReversionOnRelease" : "0",
             "Dist::Zilla::Plugin::RunExtraTests" : "0",
             "Dist::Zilla::Plugin::ShareDir" : "0",
-            "Dist::Zilla::Plugin::TaskWeaver" : "0",
             "Dist::Zilla::Plugin::Test::ReportPrereqs" : "0",
             "Dist::Zilla::Plugin::TestRelease" : "0",
-            "Dist::Zilla::Plugin::UploadToCPAN" : "0",
+            "Dist::Zilla::Plugin::UploadToStratopan" : "0",
             "Pod::Elemental::Transformer::List" : "0",
             "Pod::Weaver::Plugin::SingleEncoding" : "0",
             "Pod::Weaver::Plugin::Transformer" : "0",
@@ -102,36 +102,24 @@
       }
    },
    "provides" : {
-      "Mail::Mailgun" : {
-         "file" : "lib/Mail/Mailgun.pm",
+      "API::TurfGame" : {
+         "file" : "lib/API/TurfGame.pm",
          "version" : "0.0001"
       },
-      "Mail::Mailgun::Core::DnsRecord" : {
-         "file" : "lib/Mail/Mailgun/Core/DnsRecord.pm",
+      "API::TurfGame::Repose::Request" : {
+         "file" : "lib/API/TurfGame/Repose/Request.pm",
          "version" : "0.0001"
       },
-      "Mail::Mailgun::Mopes::RequestResponseKeywords" : {
-         "file" : "lib/Mail/Mailgun/Mopes/RequestResponseKeywords.pm",
+      "API::TurfGame::Repose::RequestResponseKeywords" : {
+         "file" : "lib/API/TurfGame/Repose/RequestResponseKeywords.pm",
          "version" : "0.0001"
       },
-      "Mail::Mailgun::Rest" : {
-         "file" : "lib/Mail/Mailgun/Rest/Message.pm",
+      "API::TurfGame::Repose::Response" : {
+         "file" : "lib/API/TurfGame/Repose/Response.pm",
          "version" : "0.0001"
       },
-      "Mail::Mailgun::Rest::Message::SendOptions" : {
-         "file" : "lib/Mail/Mailgun/Rest/Message/SendOptions.pm",
-         "version" : "0.0001"
-      },
-      "Mail::Mailgun::Role::Domain::CompleteDomainProperties" : {
-         "file" : "lib/Mail/Mailgun/Role/Domain/CompleteDomainProperties.pm",
-         "version" : "0.0001"
-      },
-      "Mail::Mailgun::Role::Domain::DomainProperties" : {
-         "file" : "lib/Mail/Mailgun/Role/Domain/DomainProperties.pm",
-         "version" : "0.0001"
-      },
-      "Mail::Mailgun::Role::Response" : {
-         "file" : "lib/Mail/Mailgun/Role/Response.pm",
+      "API::TurfGame::Rest" : {
+         "file" : "lib/API/TurfGame/Rest/User.pm",
          "version" : "0.0001"
       }
    },

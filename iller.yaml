@@ -12,6 +12,12 @@ prereqs:
 plugins:
   - +config: Author::CSSON
 
+  - +remove_plugin: UploadToCPAN
+
+  - +plugin: UploadToStratopan
+    repo: TheFirst
+    stack: master
+
 ---
 doctype: weaver
 
